@@ -1,0 +1,210 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* p {
+  font-weight: 500;
+  line-height: 50px;
+  text-decoration: underline wavy;
+  text-decoration-color: red;
+  word-spacing: 100px;
+  text-shadow: 1px 2px blue;
+} */
+
+/* 
+h1:hover + p{
+  display: block;
+  color: red;
+  font-size: 10px;
+} */
+
+/* input:focus{
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-bottom: 2px solid red;
+  cursor: pointer;
+  cursor:all-scroll;
+} */
+
+/* p:nth-child(1) {
+  color: red;
+}
+p:nth-child(odd) {
+  color: blue;
+} */
+/* p:nth-child(3) {
+  color: green;
+}
+p:nth-child(4) {
+  color: gold;
+} */
+
+/* p::first-letter{
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 1px 2px blue;
+}
+
+b{
+  color: red;
+} */
+/* 
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px grey;
+  position: relative;
+  transition: 1s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box:hover {
+  transform: scale(0.7);
+  transition: 3s;
+  background-color: yellow;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  transform: rotateX(150deg);
+}
+
+button:focus {
+  color: red;
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+} */
+
+/* .box::before,
+.box::after {
+  content: '😂 🫡';
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+} */
+/* 
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: changeColor;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  position: absolute;
+  animation-timing-function: linear;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: blue;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: blue;
+    left: calc(100% - 200px);
+    top: 0;
+  }
+  50% {
+    background-color: green;
+    left: calc(100% - 200px);
+    top: calc(100% - 200px);
+  }
+  75% {
+    background-color: green;
+    left: 0;
+    top: calc(100% - 200px);
+  }
+  100% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+}
+
+img{
+  filter: contrast(10%);
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 5px solid red;
+  animation: changeColor 3s infinite;
+  position: absolute;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: blue;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: gold;
+    left: calc(100% - 200px);
+    transform: rotate(160deg);
+    top: 0;
+  }
+  50% {
+    background-color: green;
+    left: calc(100% - 200px);
+    top: calc(100% - 200px);
+  }
+  75% {
+    background-color: purple;
+    top: calc(100% - 200px);
+    left: 0;
+  }
+  100% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+} */
+
+/* img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+} */
+
+.box {
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  /* visibility: hidden; */
+}
+
+::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px red; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
